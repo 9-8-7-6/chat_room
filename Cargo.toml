@@ -1,0 +1,11 @@
+[package]
+name = "chat_room"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+hyper = { version = "1.6.0", features = ["full"] }
+reqwest = { version = "0.12.15", features = ["json"] }
+serde_json = "1.0.86"
+serde = { version = "1.0.136", features = ["derive"] }
